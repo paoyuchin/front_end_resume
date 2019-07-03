@@ -1,26 +1,28 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
 import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-    // WorkIcon,
-    // SchoolIcon,
-    // StarIcon
+  VerticalTimeline,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import LionIcon from './LionIcon';
+import GermanyIcon from "./GermanyIcon";
+import NCHUicon from "./NCHUicon";
+
 
 const Timeline = () => {
   return (
-    <div className="App">
+    <div className="Timelin">
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2011 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          date="2018 - present"
+          iconStyle={{ background: "#e1e0d8" }}
+          icon={<LionIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
+          <h3 className="vertical-timeline-element-title">
+            Creative Director
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
           <p>
             Creative Direction, User Experience, Visual Design, Project
@@ -30,8 +32,8 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "#e1e0d8" }}
+          icon={<GermanyIcon />}
         >
           <h3 className="vertical-timeline-element-title">Art Director</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -43,10 +45,10 @@ const Timeline = () => {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--nchu"
           date="2008 - 2010"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          icon={<NCHUicon />}
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -75,7 +77,9 @@ const Timeline = () => {
           <h3 className="vertical-timeline-element-title">
             Content Marketing for Web, Mobile and Social Media
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Online Course
+          </h4>
           <p>Strategy, Social Media</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -87,7 +91,9 @@ const Timeline = () => {
           <h3 className="vertical-timeline-element-title">
             Agile Development Scrum Master
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Certification
+          </h4>
           <p>Creative Direction, User Experience, Visual Design</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

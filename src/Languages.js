@@ -4,7 +4,7 @@ import "./App.scss";
 
 
 const Languages = () => {
-  return <div>Languages</div>;
+  return <div className="Languages">Languages</div>;
 };
 
 export default Languages;

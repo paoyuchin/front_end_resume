@@ -1,22 +1,54 @@
-body{
-   background: #e3d9cd!important;
+body {
+  background: #e3d9cd !important;
 }
 .App {
   text-align: center;
 }
 
-*{
+* {
   outline: 1px solid red;
 }
 
-.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date{
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
   font-size: 20px;
 }
 
-.ProfileIntro{
-  background-color: #6c7874;  
+.ProfileIntro {
+  display: flex;
+  background-color: #6c7874;
+  min-height: 15px;
+  margin-bottom: 15px;
+}
+.Timelin{
+  .vertical-timeline-element-icon svg{
+      display: block;
+    height: auto;
+    width: 210px;
+    background-repeat: no-repeat;
+    background-size: 130px;
+  }
+  .vertical-timeline-element--nchu{
+    img{
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
-.TechStack{
+.TechStack {
   background-color: #b0b1a1;
 }
+.Languages {
+  background: #3f3830;
+}
+
+// .ProfileIntro_1{
+// }
+
+// #f5f5f5
+
+// skills把語言跟程式的skills放在一起
+
+// https://github.com/jaketrent/react-social-icons

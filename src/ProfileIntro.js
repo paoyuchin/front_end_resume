@@ -19,32 +19,37 @@ const useStyles = makeStyles(theme => ({
 const ProfileIntro = () => {
   const classes = useStyles();
   return (
-    <div className={`ProfileIntro ${classes.root}`}>
+    <div className={`ProfileIntro fixed_size ${classes.root}`}>
       <Grid container>
         <Grid xs={12} sm={12} md={6}>
-          <div className={classes.paper}>picture</div>
+          <div className="picture">
+            <img src="https://fakeimg.pl/350x200/?text=World&font=lobster" />
+          </div>
         </Grid>
         <Grid xs={12} sm={12} md={6}>
-          <div className={classes.paper}>
+          <div>
             <Grid xs={12} sm={12} md={12}>
-              <div className={classes.paper}>
+              <div className="card_name">
                 <h2>I'm Yu Chin Pao</h2>
-                Front-end Engineer,
               </div>
             </Grid>
             <Grid xs={12} sm={12} md={12}>
-              <div className={classes.paper}>
-                LOCATION TW, 886 956353518 E-MAIL bow1130bow@gmail.com CURRENT
-                Front-end, Lion Technologies, Inc.
+              <div className="card_intro">
+                <div>LOCATION: TAIWAN</div>
+                <div>E-mail: bow1130bow@gmail.com</div>
+                <div>CURRENT: CURRENT Front-end, Lion Technologies, Inc.</div>
               </div>
             </Grid>
           </div>
         </Grid>
-        <Grid sm={12} md={6}>
-                <SocialIcon url="http://jaketrent.com" network="github" />
+          <Grid sm={12} md={4}>
+            {/* <SocialIcon url="http://jaketrent.com" network="github" /> */}1
         </Grid>
-        <Grid sm={12} md={6}>
-          2
+          <Grid sm={12} md={4}>
+            2
+        </Grid>
+          <Grid sm={12} md={4}>
+            3
         </Grid>
       </Grid>
     </div>

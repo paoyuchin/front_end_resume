@@ -1,6 +1,7 @@
 body {
   background: #e3d9cd !important;
 }
+
 .App {
   text-align: center;
 }
@@ -9,40 +10,98 @@ body {
   outline: 1px solid red;
 }
 
-.vertical-timeline--two-columns
-  .vertical-timeline-element-content
-  .vertical-timeline-element-date {
+.fixed_size {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
   font-size: 20px;
 }
+
 
 .ProfileIntro {
   display: flex;
   background-color: #6c7874;
   min-height: 15px;
   margin-bottom: 15px;
+
+  .picture {
+    margin-top: 16%;
+    width: 65%;
+    margin: auto;
+    margin-top: 16px;
+
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .card_name {
+    border-bottom: 3px solid gray;
+  }
+
+  .card_intro {
+    text-align: left;
+    padding: 16px;
+    font-size: 17px;
+
+    div {
+      padding: 16px;
+    }
+  }
+  
 }
-.Timelin{
-  .vertical-timeline-element-icon svg{
-      display: block;
+
+.Timeline {
+  .vertical-timeline-element-icon svg {
+    display: block;
     height: auto;
     width: 210px;
-    background-repeat: no-repeat;
-    background-size: 130px;
+    position: static;
+    left: 0;
+    top: 0;
+    margin: 0;
+    // background-repeat: no-repeat;
+    // background-size: 130px;
   }
-  .vertical-timeline-element--nchu{
+
+  .vertical-timeline-element--nchu {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .vertical-timeline-element--Germany{
     img{
       width: 50px;
       height: 50px;
     }
   }
+  .vertical-timeline-element--hote{
+    img {
+      width: 80px;
+      height: 50px;
+      position: absolute;
+      left: -10px;
+      
+    }
+  }
 }
 
 .TechStack {
-  background-color: #b0b1a1;
+  background-color: white;
 }
+
 .Languages {
   background: #3f3830;
 }
+
+
+
 
 // .ProfileIntro_1{
 // }

@@ -8,14 +8,15 @@ import "react-vertical-timeline-component/style.min.css";
 import LionIcon from './LionIcon';
 import GermanyIcon from "./GermanyIcon";
 import NCHUicon from "./NCHUicon";
+import HotelIcon from './HotelIcon';
 
 
 const Timeline = () => {
   return (
-    <div className="Timelin">
+    <div className="Timeline">
       <VerticalTimeline>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="lion_work"
           date="2018 - present"
           iconStyle={{ background: "#e1e0d8" }}
           icon={<LionIcon />}
@@ -30,7 +31,7 @@ const Timeline = () => {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--Germany"
           date="2010 - 2011"
           iconStyle={{ background: "#e1e0d8" }}
           icon={<GermanyIcon />}
@@ -47,7 +48,7 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--nchu"
           date="2008 - 2010"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#e1e0d8" }}
           icon={<NCHUicon />}
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
@@ -57,10 +58,10 @@ const Timeline = () => {
           <p>User Experience, Visual Design</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--hote"
           date="2006 - 2008"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "#e1e0d8" }}
+          icon={<HotelIcon />}
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
           <h4 className="vertical-timeline-element-subtitle">

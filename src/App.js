@@ -2,15 +2,15 @@ import React from "react";
 import Timeline from "./Timeline";
 import ProfileIntro from "./ProfileIntro";
 import TechStack from "./TechStack";
-import Languages from "./Languages";
+import AboutMe from './AboutMe';
 
 const App = () => {
   return (
     <div className="App">
       <ProfileIntro />
+      <AboutMe />
       <TechStack />
       <Timeline />
-      {/* <Languages /> */}
     </div>
   );
 };

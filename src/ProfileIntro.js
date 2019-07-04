@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
 const ProfileIntro = () => {
   const classes = useStyles();
   return (
-    <div className={`ProfileIntro fixed_size ${classes.root}`}>
+    <div className={`ProfileIntro ${classes.root}`}>
       <Grid container>
         <Grid xs={12} sm={12} md={6}>
           <div className="picture">

@@ -3,16 +3,22 @@ import "./App.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import Languages from "./Languages";
+// import Languages from "./Languages";
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: '30px',
     textAlign: "center",
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
+  },
+  paper1: {
+    padding: theme.spacing(3),
+    textAlign: "center",
+    color: theme.palette.text.secondary,
+    padding:"16px 0"
   }
 }));
 
@@ -21,9 +27,9 @@ const TechStack = () => {
   return (
     <div className={`TechStack fixed_size ${classes.root}`}>
       <Grid container spacing={3}>
-        <Grid xs={12} sm={12} md={4}>
+        <Grid xs={12} sm={12} md={3}>
           <div className={classes.paper}>FRONT END</div>
-          <div>
+          <div className="">
             <i class="fas fa-laptop-code" />
           </div>
           <ul>
@@ -38,29 +44,43 @@ const TechStack = () => {
             <li>SEO</li>
           </ul>
         </Grid>
-        <Grid xs={12} sm={12} md={4}>
-          <div className={classes.paper}>CODE OPTIMIZATION</div>
-          <div>Babel</div>
-          <div>Webpack</div>
-        </Grid>
-        <Grid xs={12} sm={12} md={4}>
-          VERSION CONTROL
+        <Grid xs={12} sm={12} md={3}>
+          <div className={classes.paper1}>
+            <div>CODE OPTIMIZATION</div>
+            <div>VERSION CONTROL</div>
+          </div>
+          <div className="">
+            <i class="fas fa-tools" />
+          </div>
           <ul>
             <li>git</li>
             <li>git flow</li>
             <li>git kraken</li>
+            <li>Babel</li>
+            <li>Webpack</li>
           </ul>
-          <div className={classes.paper}>1</div>
+          <div />
         </Grid>
-        <Grid xs={12} sm={12} md={4}>
+        <Grid xs={12} sm={12} md={3}>
           <div className={classes.paper}>BACK END</div>
+          <div className="">
+            <i class="fas fa-code" />
+          </div>
           <ul>
             <li>firestore</li>
+            <li>php</li>
           </ul>
-          <div className={classes.paper}>1</div>
         </Grid>
-        <Grid xs={12} sm={12} md={4}>
+        <Grid xs={12} sm={12} md={3}>
           <div className={classes.paper}>LANGUAGE SKILLS</div>
+          <div className="">
+            <i class="fas fa-language" />
+          </div>
+          <ul>
+            <li>Chinese</li>
+            <li>English</li>
+            <li>German</li>
+          </ul>
         </Grid>
       </Grid>
     </div>

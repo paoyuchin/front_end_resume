@@ -1,5 +1,6 @@
 body {
   background: #e3d9cd !important;
+  color: #3d4451;
 }
 
 .App {
@@ -33,6 +34,10 @@ body {
 .color_2 {
   font-size: 34px;
   font-weight: 600;
+}
+
+.color_4 {
+  color: #3d4451;
 }
 
 .font_bold {
@@ -109,6 +114,22 @@ body {
 }
 
 .Timeline {
+  .projectButton {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    min-height: 36px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.4em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  }
+
   .vertical-timeline-element-content {
     border-top: 5px solid #0073b0;
   }
@@ -121,37 +142,24 @@ body {
     left: 0;
     top: 0;
     margin: 0;
-    // background-repeat: no-repeat;
-    // background-size: 130px;
-  }
-
-  .vertical-timeline-element--nchu {
-    img {
-      width: 50px;
-      height: 50px;
-    }
   }
 
   .vertical-timeline-element--Germany {
     img {
       width: 50px;
       height: 50px;
+      position: relative;
+      top: 5px;
     }
   }
 
-  .vertical-timeline-element--hote {
-    img {
-      width: 80px;
-      height: 50px;
-      position: absolute;
-      left: -10px;
-    }
-  }
 
   .vertical-timeline-element--iii {
     img {
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: 5px;
     }
   }
 }
@@ -207,7 +215,6 @@ body {
   }
 }
 
-
 @media (max-width: 960px) {
   .fixed_size {
     max-width: 960px;
@@ -220,4 +227,83 @@ body {
       justify-content: space-evenly;
     }
   }
+
+  .techStack_wrap {
+    hr {
+      margin: 0px 15px 4px;
+    }
+
+    .MuiGrid-spacing-xs-3 {
+      margin: 0px;
+    }
+  }
+
+  .Timeline {
+    // .vertical-timeline-element-icon {
+    //   svg {
+    //     width: 150px;
+    //     position: relative;
+    //     left: -4px;
+    //     top: -3px;
+    //   }
+    // }
+
+    // .vertical-timeline-element--iii {
+    //   img {
+    //     width: 30px;
+    //     height: 30px;
+    //   }
+    // }
+
+    // .vertical-timeline-element--Germany img {
+    //   width: 35px;
+    //   height: 35px;
+    //   position: relative;
+    //   top: 4px;
+    // }
+
+    // .vertical-timeline-element--nchu img {
+    //   width: 60px;
+    //   height: 60px;
+    //   position: relative;
+    //   top: 6px;
+    // }
+
+    // .vertical-timeline-element--hote img {
+    //   width: 60px;
+    //   height: 37px;
+    // }
+  }
 }
+
+
+@media (min-width: 960px) and (max-width: 1169px) {
+  .iconMediaquery {
+    top: 7px !important;
+    color: white !important;
+    position: relative !important;
+    font-size: 24px !important;
+  }
+
+  // .Timeline {
+  //   .vertical-timeline-element-icon svg {
+  //     width: 169px;
+  //     position: relative;
+  //     left: -7px;
+  //     top: -5px;
+  //     margin: 0
+  //   }
+
+
+  //   .vertical-timeline-element--hote img {
+  //     width: 50px;
+  //     height: 32px;
+  //     position: absolute;
+  //     left: -5px;
+  //     top: 5px;
+  //   }
+}
+
+
+
+//1169 960

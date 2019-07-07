@@ -14,7 +14,25 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
   title: {
-    color: "red !important"
+    color: "#3d4451 !important"
+  },
+  name: {
+    color: "#3d4451;",
+    padding: "16px 0px 11px 0px",
+    fontWeight: "bold",
+    fontSize: "18px"
+  },
+  iconstyle: {
+    color: "white",
+    fontSize: "31px",
+    position: "relative",
+    top: "13px",
+    ["@media (max-width: 960px)"]: {
+      top: '7px !important',
+      color: 'white !important',
+      position: 'relative !important',
+      fontSize: '24px !important',
+    }
   }
 }));
 
@@ -22,80 +40,108 @@ const Timeline = () => {
   const classes = useStyles();
   return (
     <div className="Timeline">
-      <h1 className="color_2 color_3 title_space">Work Experience</h1>
+      <h1 className="color_2 color_3 title_space">
+        Work experience & Education
+      </h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="lion_work"
           date="2018 - present"
-          iconStyle={{ background: "#e1e0d8" }}
-          icon={<LionIcon />}
+          iconStyle={{ background: "#0073b0" }}
+          icon={<i className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`} />}
         >
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              <LionIcon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4
+              className={`vertical-timeline-element-subtitle ${classes.name}`}
+            >
+              前端工程師
+            </h4>
             <p className={classes.title}>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              <ul>
+                <li>雄獅旅遊網-票券當地遊開發窗口</li>
+                <li>使用 React 進行模組化開發</li>
+                <li>參與專案架構與使用技術討論</li>
+                <li>負責集團各部門需求進行模組開發</li>
+                <li>與UED, PM 討論使用者行為與後端討論api串接</li>
+              </ul>
             </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--iii"
-          date="2008 - 2010"
+          date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
-          icon={<III_icon />}
+          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
         >
           <div className={classes.title}>
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3
+              className={`vertical-timeline-element-subtitle ${classes.name}`}
+            >
+              <III_icon />
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
-            </h4>
-            <p className={classes.title}>User Experience, Visual Design</p>
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--Germany"
-          date="2010 - 2011"
-          iconStyle={{ background: "#e1e0d8" }}
-          icon={<GermanyIcon />}
-        >
-          <div className={classes.title}>
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Web/APP前端工程師 UI/UX 互動網站開發
             </h4>
             <p className={classes.title}>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              <ul>
+                <li>Javascript 動態網頁程式設計</li>
+                <li>HTML5 網頁程式設計</li>
+                <li>PHP網站程式設計</li>
+                <li>MySQL資料庫設計</li>
+                <li>響應式網頁設計(RWD)</li>
+              </ul>
             </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--nchu"
-          date="2008 - 2010"
+          className="vertical-timeline-element--Germany"
+          date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
-          icon={<NCHUicon />}
+          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
         >
           <div className={classes.title}>
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title">
+              <GermanyIcon />
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
+              Deparment of Grammatik
             </h4>
-            <p className={classes.title}>User Experience, Visual Design</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--nchu"
+          date="2016.07～2017.07"
+          iconStyle={{ background: "#e1e0d8" }}
+          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
+        >
+          <div className={classes.title}>
+            <h3 className="vertical-timeline-element-title">
+              <NCHUicon />
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">外國語言學系</h4>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--hote"
-          date="2006 - 2008"
-          iconStyle={{ background: "#e1e0d8" }}
-          icon={<HotelIcon />}
+          date="2012.09～2016.06"
+          iconStyle={{ background: "#0073b0" }}
+          icon={<i className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`} />}
         >
           <div className={classes.title}>
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
+            <h3 className="vertical-timeline-element-title"><HotelIcon /></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              <ul>
+                <li>購買臉書廣告, Google關鍵字廣告</li>
+                <li>廣告宣傳撰寫與文字潤搞,協助媒體拍攝不同檔期新聞露出</li>
+                <li>
+                  飯店平面媒體與廣告媒體路出資料，規劃、執行、改進行銷策略及計劃之工作.
+                </li>
+                <li>CRM顧客關係管理系統</li>
+                <li>管理多媒體社群網站，Facebook臉書管理與刊登廣告操作</li>
+              </ul>
             </h4>
             <p className={classes.title}>User Experience, Visual Design</p>
           </div>

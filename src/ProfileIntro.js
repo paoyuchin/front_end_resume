@@ -13,6 +13,10 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2),
     textAlign: "center",
     color: theme.palette.text.secondary
+  },
+  titleSet: {
+    fontWeight: "bold",
+    color: "#3D4451"
   }
 }));
 
@@ -34,21 +38,22 @@ const ProfileIntro = () => {
                   <span className="font_bold_normal color_3">I am</span> Pao
                   Yu Chin
                 </h1>
-                <div>Front-End Engineer</div>
+                <span className="color_4">Front-End Engineer, </span>
+                <span className="color_4">React Engineer</span>
               </div>
             </Grid>
             <Grid xs={12} sm={12} md={12}>
               <div className="card_intro">
                 <div>
-                  <span className="font_bold">LOCATION:</span>
+                  <span className={classes.titleSet}>LOCATION:</span>
                   <span className="color_1">TAIWAN</span>
                 </div>
                 <div>
-                  <span className="font_bold">E-mail: </span>
+                  <span className={classes.titleSet}>E-mail: </span>
                   <span className="color_1">bow1130bow@gmail.com</span>
                 </div>
                 <div>
-                  <span className="font_bold">CURRENT:</span>
+                  <span className={classes.titleSet}>CURRENT:</span>
                   <span className="color_1">
                     Front-End Engineer at Lion Travel, Inc.
                   </span>

@@ -7,8 +7,8 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles(theme => ({
   root: {
     ["@media (max-width:960px)"]: {
-      paddingLeft: '15px',
-      paddingTop: '15px',
+      paddingLeft: "15px",
+      paddingTop: "15px"
     }
   },
   title: {
@@ -17,8 +17,8 @@ const useStyles = makeStyles(theme => ({
     color: "#3d4451",
     ["@media (max-width:960px)"]: {
       textAlign: "left",
-      paddingLeft: '16px',
-      padding:'0'
+      paddingLeft: "16px",
+      padding: "0"
     }
   },
   ullistStyle: {
@@ -30,8 +30,8 @@ const useStyles = makeStyles(theme => ({
     lineHeight: "1.5",
     ["@media (max-width:960px)"]: {
       marginLeft: "16px",
-      paddingLeft: '0',
-      maxWidth:'none',
+      paddingLeft: "0",
+      maxWidth: "none"
     }
   },
   icon_style: {
@@ -42,9 +42,13 @@ const useStyles = makeStyles(theme => ({
   item: {
     ["@media (max-width:960px)"]: {
       textAlign: "left",
-      marginBottom:'19px',
+      marginBottom: "19px"
     }
-  }
+  },
+  skills: {},
+  skillsContent:{
+
+  },
 }));
 
 const TechStack = () => {
@@ -54,56 +58,85 @@ const TechStack = () => {
       <h1 className="color_2 color_3 title_space">Tech Stack</h1>
       <div className={`TechStack fixed_size ${classes.root}`}>
         <Grid container spacing={3}>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-laptop-code ${classes.icon_style}`} />
             <div className={classes.title}>FRONT END</div>
+            <div className={classes.skills}>
+              React.js, React-router, React-redux <br />
+              React-thunk, EJS, SASS/SCSS, PUG
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>React.js</li>
-              <li>React-router</li>
-              <li>React-redux</li>
-              <li>React-thunk</li>
-              <li>EJS</li>
-              <li>SASS/SCSS</li>
-              <li>ES6,ES7,ES8( Async/Await, Promise ...etc)</li>
-              <li>npm</li>
-              <li>SEO</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
-            <i className={`fas fa-tools ${classes.icon_style}`} />
-            <div className={classes.title}>TOOLS</div>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-rocket ${classes.icon_style}`} />
+            <div className={classes.title}>
+             Version Control<br />
+              Code Optimization
+            </div>
+            <div className={classes.skills}>
+              git, git flow, git kraken, Babel, Webpack
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>git</li>
-              <li>git flow</li>
-              <li>git kraken</li>
-              <li>Babel</li>
-              <li>Webpack</li>
-              <li>Sketch</li>
-              <li>AdobeXD</li>
-              <li>mockflow</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
             <div />
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-code ${classes.icon_style}`} />
             <div className={classes.title}>BACK END</div>
+            <div className={classes.skills}>firestore, php, mysql, Google Authentication</div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>firestore</li>
-              <li>php</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
-            <i className={`fas fa-language ${classes.icon_style}`} />
-            <div className={classes.title}>LANGUAGE SKILLS</div>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-poll-h ${classes.icon_style}`} />
+            <div className={classes.title}>Project Menegement/Marketing</div>
+            <div className={classes.skills}>
+              Google Analytics, Keyword Analysis, SEO Executive
+              <br />
+              Project management, Social Media Strategy <br />
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>Chinese</li>
-              <li>English</li>
-              <li>German</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-tools ${classes.icon_style}`} />
+            <div className={classes.title}>UI Test/TOOLS</div>
+            <div className={classes.skills}>Storybook, ILLUSTRATOR, Photoshop, </div>
+            <hr />
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
+            <div />
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-language ${classes.icon_style}`} />
+            <div className={classes.title}>LANGUAGE</div>
+            <div>German, English, Chinese</div>
+            <hr />
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
         </Grid>
       </div>

@@ -53,8 +53,8 @@ const TechStack = () => {
     <div className="techStack_wrap">
       <h1 className="color_2 color_3 title_space">Tech Stack</h1>
       <div className={`TechStack fixed_size ${classes.root}`}>
-        <Grid container spacing={3}>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
+        <Grid container>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-laptop-code ${classes.icon_style}`} />
             <div className={classes.title}>FRONT END</div>
             <hr />
@@ -70,9 +70,9 @@ const TechStack = () => {
               <li>SEO</li>
             </ul>
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-tools ${classes.icon_style}`} />
-            <div className={classes.title}>TOOLS</div>
+            <div className={classes.title}>BACK END</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>git</li>
@@ -86,23 +86,54 @@ const TechStack = () => {
             </ul>
             <div />
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-code ${classes.icon_style}`} />
-            <div className={classes.title}>BACK END</div>
+            <div className={classes.title}>VERSION CONTROL/CODE OPTIMICATION</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>firestore</li>
               <li>php</li>
             </ul>
           </Grid>
-          <Grid xs={12} sm={12} md={3} className={classes.item}>
-            <i className={`fas fa-language ${classes.icon_style}`} />
-            <div className={classes.title}>LANGUAGE SKILLS</div>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-laptop-code ${classes.icon_style}`} />
+            <div className={classes.title}>LANGUAGE</div>
             <hr />
             <ul className={classes.ullistStyle}>
-              <li>Chinese</li>
-              <li>English</li>
-              <li>German</li>
+              <li>React.js</li>
+              <li>React-router</li>
+              <li>React-redux</li>
+              <li>React-thunk</li>
+              <li>EJS</li>
+              <li>SASS/SCSS</li>
+              <li>ES6,ES7,ES8( Async/Await, Promise ...etc)</li>
+              <li>npm</li>
+              <li>SEO</li>
+            </ul>
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-tools ${classes.icon_style}`} />
+            <div className={classes.title}>PROJECT MANEGEMENT</div>
+            <hr />
+            <ul className={classes.ullistStyle}>
+              <li>1</li>
+              <li>dddd</li>
+              <li>dd</li>
+              <li>dd</li>
+              <li>dddddd</li>
+              <li>Sketch</li>
+              <li>AdobeXD</li>
+              <li>mockflow</li>
+            </ul>
+            <div />
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-code ${classes.icon_style}`} />
+            <div className={classes.title}>TOOLS</div>
+            <hr />
+            <ul className={classes.ullistStyle}>
+              <li>power point</li>
+              <li>sketch</li>
             </ul>
           </Grid>
         </Grid>

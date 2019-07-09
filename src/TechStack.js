@@ -9,12 +9,15 @@ const useStyles = makeStyles(theme => ({
     ["@media (max-width:960px)"]: {
       paddingLeft: "15px",
       paddingTop: "15px"
-    }
+    },
+    textAlign: "left",
+    padding: "16px"
   },
   title: {
-    padding: "10px 0",
-    textAlign: "center",
+    // padding: "10px 0",
+    textAlign: "left",
     color: "#3d4451",
+    minHeight:'37px',
     ["@media (max-width:960px)"]: {
       textAlign: "left",
       paddingLeft: "16px",
@@ -45,10 +48,17 @@ const useStyles = makeStyles(theme => ({
       marginBottom: "19px"
     }
   },
-  skills: {},
-  skillsContent:{
-
+  skills: {
+    color: "#0073B0",
+    padding: "16px 0px",
+    minHeight: '36px',
   },
+  skillsContent: {
+    color: "#3d4451",
+    padding: "18px 10px 15px 0px",
+    lineHeight: "18px",
+    width:'90%'
+  }
 }));
 
 const TechStack = () => {
@@ -75,8 +85,7 @@ const TechStack = () => {
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-rocket ${classes.icon_style}`} />
             <div className={classes.title}>
-             Version Control<br />
-              Code Optimization
+              Version Control & Code Optimization
             </div>
             <div className={classes.skills}>
               git, git flow, git kraken, Babel, Webpack
@@ -92,7 +101,9 @@ const TechStack = () => {
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-code ${classes.icon_style}`} />
             <div className={classes.title}>BACK END</div>
-            <div className={classes.skills}>firestore, php, mysql, Google Authentication</div>
+            <div className={classes.skills}>
+              firestore, php, mysql, Google Authentication
+            </div>
             <hr />
             <div className={classes.skillsContent}>
               The reason why using UI libraries is that things will go messy
@@ -104,9 +115,10 @@ const TechStack = () => {
             <i className={`fas fa-poll-h ${classes.icon_style}`} />
             <div className={classes.title}>Project Menegement/Marketing</div>
             <div className={classes.skills}>
-              Google Analytics, Keyword Analysis, SEO Executive
+              Google Analytics, Keyword Analysis
               <br />
-              Project management, Social Media Strategy <br />
+              SEO Executive, Project management, <br />
+              Social Media Strategy <br />
             </div>
             <hr />
             <div className={classes.skillsContent}>
@@ -118,7 +130,9 @@ const TechStack = () => {
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-tools ${classes.icon_style}`} />
             <div className={classes.title}>UI Test/TOOLS</div>
-            <div className={classes.skills}>Storybook, ILLUSTRATOR, Photoshop, </div>
+            <div className={classes.skills}>
+              Storybook, ILLUSTRATOR, Photoshop,{" "}
+            </div>
             <hr />
             <div className={classes.skillsContent}>
               The reason why using UI libraries is that things will go messy
@@ -130,7 +144,7 @@ const TechStack = () => {
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-language ${classes.icon_style}`} />
             <div className={classes.title}>LANGUAGE</div>
-            <div>German, English, Chinese</div>
+            <div className={classes.skills}>German, English, Chinese</div>
             <hr />
             <div className={classes.skillsContent}>
               The reason why using UI libraries is that things will go messy

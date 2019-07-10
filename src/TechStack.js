@@ -72,14 +72,15 @@ const TechStack = () => {
             <i className={`fas fa-laptop-code ${classes.icon_style}`} />
             <div className={classes.title}>FRONT END</div>
             <div className={classes.skills}>
-              React.js, React-router, React-redux <br />
-              React-thunk, EJS, SASS/SCSS, PUG
+              React.js, React-router, React-redux, Storybook <br />
+              React-thunk, EJS, SASS/SCSS, PUG, SEO Executive, 
             </div>
             <hr />
             <div className={classes.skillsContent}>
               The reason why using UI libraries is that things will go messy
               if you define layout by HTML and operate on DOM elements by
               document.querySelector or jQuery.
+              
             </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
@@ -106,38 +107,37 @@ const TechStack = () => {
             </div>
             <hr />
             <div className={classes.skillsContent}>
-              The reason why using UI libraries is that things will go messy
-              if you define layout by HTML and operate on DOM elements by
-              document.querySelector or jQuery.
+              As a front-end developer, To familiar and learning with basic backend knowledge is necessary.
+No matter for a better communication with backend engineer or a well-corporation with others, which will become easier.
             </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-poll-h ${classes.icon_style}`} />
             <div className={classes.title}>Project Menegement/Marketing</div>
             <div className={classes.skills}>
-              Google Analytics, Keyword Analysis
-              <br />
-              SEO Executive, Project management, <br />
+              Google Adword, social medial, Facebook Adword<br />
+              Project management, <br />
               Social Media Strategy <br />
             </div>
             <hr />
             <div className={classes.skillsContent}>
-              The reason why using UI libraries is that things will go messy
-              if you define layout by HTML and operate on DOM elements by
-              document.querySelector or jQuery.
+            A good SEO in a website is important.
+            Optimizing sites will help deliver better information to search engines, so the content can be properly displayed within search results.
+              I also had to manage google adwords, control budget project.
+
             </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-tools ${classes.icon_style}`} />
             <div className={classes.title}>UI Test/TOOLS</div>
             <div className={classes.skills}>
-              Storybook, ILLUSTRATOR, Photoshop,{" "}
+              mockflow, sketch, ILLUSTRATOR, Photoshop
             </div>
             <hr />
             <div className={classes.skillsContent}>
-              The reason why using UI libraries is that things will go messy
-              if you define layout by HTML and operate on DOM elements by
-              document.querySelector or jQuery.
+          Tthe most successful websites/applications respond quickly and efficiently.
+          Design and software is now heavily based around user experience because it has become all about the consumer.
+            I usually using tools like mockflow or sketch for design and collaborate with user interface.
             </div>
             <div />
           </Grid>
@@ -147,9 +147,8 @@ const TechStack = () => {
             <div className={classes.skills}>German, English, Chinese</div>
             <hr />
             <div className={classes.skillsContent}>
-              The reason why using UI libraries is that things will go messy
-              if you define layout by HTML and operate on DOM elements by
-              document.querySelector or jQuery.
+              Language plays an important role in my job. By Reading latest foreign artical can absorb tenical knowledge. 
+              Besides when I facing technical problem, language become a helper to understand the solution from the internet.
             </div>
           </Grid>
         </Grid>

@@ -28,7 +28,7 @@ const GermanyIcon = () => {
         </svg>
       </span>
 
-      <span className={classes.name}>德國-達姆施塔特工業大學</span>
+      <span className={classes.name}>Germany-Technische Universität Darmstadt</span>
     </div>
   );
 };

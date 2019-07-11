@@ -26,7 +26,7 @@ const LionIcon = () => {
           </g>
         </svg>
       </span>
-      <span className={classes.icon}>雄獅資訊科技股份有限公司 </span>
+      <span className={classes.icon}>LION TRAVEL</span>
     </div>
   );
 };

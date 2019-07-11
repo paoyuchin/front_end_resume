@@ -57,16 +57,26 @@ const Timeline = () => {
             <h4
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              前端工程師
+              front-end engineer
             </h4>
             <p className={classes.title}>
-              <ul>
+            <ul>
+              <li>In charge of Lion Travel's Ticket website</li>
+              <li>Developing react module </li>
+              <li>Discussing with Backend engineer web structor</li>
+              <li>Search engine optimization</li>
+              <li>Developing jquery module</li>
+              <li>Responsive Web Design</li>
+              <li>Cross-browser compatibility</li>
+              <li>Api concatenation</li>
+            </ul>
+              {/* <ul>
                 <li>雄獅旅遊網-票券當地遊開發窗口</li>
                 <li>使用 React 進行模組化開發</li>
                 <li>參與專案架構與使用技術討論</li>
                 <li>負責集團各部門需求進行模組開發</li>
                 <li>與UED, PM 討論使用者行為與後端討論api串接</li>
-              </ul>
+              </ul> */}
             </p>
           </div>
         </VerticalTimelineElement>
@@ -83,16 +93,23 @@ const Timeline = () => {
               <III_icon />
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Web/APP前端工程師 UI/UX 互動網站開發
+              
             </h4>
             <p className={classes.title}>
-              <ul>
+            <ul>
+              <li>Javascript dynamic development</li>
+              <li>HTML5</li>
+              <li>Php web design</li>
+              <li>Mysql</li>
+              <li>Responsive web design</li>
+            </ul>
+              {/* <ul>
                 <li>Javascript 動態網頁程式設計</li>
                 <li>HTML5 網頁程式設計</li>
                 <li>PHP網站程式設計</li>
                 <li>MySQL資料庫設計</li>
                 <li>響應式網頁設計(RWD)</li>
-              </ul>
+              </ul> */}
             </p>
           </div>
         </VerticalTimelineElement>
@@ -107,8 +124,14 @@ const Timeline = () => {
               <GermanyIcon />
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Deparment of Grammatik
+              Exchange Student
             </h4>
+            <p className={classes.title}>
+            <ul>
+              <li>goethe zertifikat A2</li>
+              <li>goethe zertifikat B1</li>
+            </ul>
+            </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -121,7 +144,7 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">
               <NCHUicon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">外國語言學系</h4>
+            <h4 className="vertical-timeline-element-subtitle">Department of Foreign Languages and Literatures</h4>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -133,7 +156,15 @@ const Timeline = () => {
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title"><HotelIcon /></h3>
             <h4 className="vertical-timeline-element-subtitle">
-              <ul>
+            <ul>
+              <li>Facebook advertising</li>
+              <li>Google Adwords advertising</li>
+              <li>write activity projects</li>
+              <li>control and plain project budget</li>
+              <li>Customer relationship management</li>
+              <li>social media</li>
+            </ul>
+              {/* <ul>
                 <li>購買臉書廣告, Google關鍵字廣告</li>
                 <li>廣告宣傳撰寫與文字潤搞,協助媒體拍攝不同檔期新聞露出</li>
                 <li>
@@ -141,9 +172,9 @@ const Timeline = () => {
                 </li>
                 <li>CRM顧客關係管理系統</li>
                 <li>管理多媒體社群網站，Facebook臉書管理與刊登廣告操作</li>
-              </ul>
+              </ul> */}
             </h4>
-            <p className={classes.title}>User Experience, Visual Design</p>
+            {/* <p className={classes.title}>User Experience, Visual Design</p> */}
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>

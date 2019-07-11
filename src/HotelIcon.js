@@ -18,7 +18,7 @@ const HotelIcon = () => {
           alt=""
         />
       </span>
-      <span className={classes.layout}>台中福華大飯店</span>
+      <span className={classes.layout}>Howard Prince Hotel Taichung</span>
     </div>
   );
 };

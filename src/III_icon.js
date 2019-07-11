@@ -18,7 +18,7 @@ const GermanyIcon = () => {
           alt=""
         />
       </span>
-      <span>資策會 - 數位教育研究所</span>
+      <span>Institute for Information Industry</span>
     </div>
   );
 };

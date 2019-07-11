@@ -72,7 +72,6 @@ const TechStack = () => {
             <i className={`fas fa-laptop-code ${classes.icon_style}`} />
             <div className={classes.title}>FRONT END</div>
             <div className={classes.skills}>
-<<<<<<< HEAD
               React.js, React-router, React-redux, ECMAScript 6,Asynchronous,
               Synchronous
               <br />
@@ -84,16 +83,6 @@ const TechStack = () => {
               performance. However, In react, any view changes are first reflected to virtual
               DOM, then an efficient diff algorithm compares the previous and
               current states of the virtual DOM and calculates the best way to apply these changes.
-=======
-              React.js, React-router, React-redux, Storybook <br />
-              React-thunk, EJS, SASS/SCSS, PUG, SEO Executive, 
-            </div>
-            <hr />
-            <div className={classes.skillsContent}>
-              The reason why using UI libraries is that things will go messy
-              if you define layout by HTML and operate on DOM elements by
-              document.querySelector or jQuery.
->>>>>>> 5a85171089b010820e6bc66858b3c4aefb0749ff
               
             </div>
           </Grid>

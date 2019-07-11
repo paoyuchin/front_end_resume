@@ -12,15 +12,9 @@ const AboutMe = () => {
           the past year.           
           When people ask me why would you make such a leap, I would tell them that the gap is made small when you have PASSION. <br />
 
-          To improve myself, I also learned German and successfully applied exchanged student in Germany for one year. 
-          Because of this opportunity, I step into field of Front-end development.<br />
-          
-          I am not only technical but I also have hand-on experience with Google Ads, Google analysis, and marketing.
-          
-          Learning something new gets me access to new and different opportunities. 
-          I am really into the problem-solving and the creativeness that come along it. 
-          
-          Software engineering already occupied an important place in modern technologies. I'm glad I'm in.
+          Out of interest in a different culture, I learned German and became an exchanged student in Germany in 2016. 
+          The University I exchanged to is renowned for its reputation in engineering, which gave me access to many intelligent engineer students.
+          It was this opportunity that broadened my perspective and encouraged me to step into the pit of programming. <br />
         </div>
       </Grid>
     </div>

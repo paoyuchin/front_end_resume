@@ -35,7 +35,7 @@ const ProfileIntro = () => {
             <Grid xs={12} sm={12} md={12}>
               <div className="card_name">
                 <h1 className="color_3">
-                  <span className="font_bold_normal color_3">I am</span> Pao
+                  <span className="font_bold_normal color_3 name">I am</span> Pao
                   Yu Chin
                 </h1>
                 <span className="color_4">Front-End Engineer, </span>

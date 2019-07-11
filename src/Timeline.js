@@ -28,10 +28,10 @@ const useStyles = makeStyles(theme => ({
     position: "relative",
     top: "13px",
     ["@media (max-width: 960px)"]: {
-      top: '7px !important',
-      color: 'white !important',
-      position: 'relative !important',
-      fontSize: '24px !important',
+      top: "7px !important",
+      color: "white !important",
+      position: "relative !important",
+      fontSize: "24px !important"
     }
   }
 }));
@@ -48,7 +48,11 @@ const Timeline = () => {
           className="lion_work"
           date="2018 - present"
           iconStyle={{ background: "#0073b0" }}
-          icon={<i className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`} />}
+          icon={
+            <i
+              className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`}
+            />
+          }
         >
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title">
@@ -60,16 +64,16 @@ const Timeline = () => {
               front-end engineer
             </h4>
             <p className={classes.title}>
-            <ul>
-              <li>In charge of Lion Travel's Ticket website</li>
-              <li>Developing react module </li>
-              <li>Discussing with Backend engineer web structor</li>
-              <li>Search engine optimization</li>
-              <li>Developing jquery module</li>
-              <li>Responsive Web Design</li>
-              <li>Cross-browser compatibility</li>
-              <li>Api concatenation</li>
-            </ul>
+              <ul>
+                <li>In charge of Lion Travel's Ticket website</li>
+                <li>Developing react module </li>
+                <li>Discussing with Backend engineer web structor</li>
+                <li>Search engine optimization</li>
+                <li>Developing jquery module</li>
+                <li>Responsive Web Design</li>
+                <li>Cross-browser compatibility</li>
+                <li>Api concatenation</li>
+              </ul>
               {/* <ul>
                 <li>雄獅旅遊網-票券當地遊開發窗口</li>
                 <li>使用 React 進行模組化開發</li>
@@ -84,7 +88,13 @@ const Timeline = () => {
           className="vertical-timeline-element--iii"
           date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
-          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
+          icon={
+            <i
+              className={`fas fa-graduation-cap iconMediaquery ${
+                classes.iconstyle
+              }`}
+            />
+          }
         >
           <div className={classes.title}>
             <h3
@@ -92,17 +102,15 @@ const Timeline = () => {
             >
               <III_icon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              
-            </h4>
+            <h4 className="vertical-timeline-element-subtitle" />
             <p className={classes.title}>
-            <ul>
-              <li>Javascript dynamic development</li>
-              <li>HTML5</li>
-              <li>Php web design</li>
-              <li>Mysql</li>
-              <li>Responsive web design</li>
-            </ul>
+              <ul>
+                <li>Javascript dynamic development</li>
+                <li>HTML5</li>
+                <li>Php web design</li>
+                <li>Mysql</li>
+                <li>Responsive web design</li>
+              </ul>
               {/* <ul>
                 <li>Javascript 動態網頁程式設計</li>
                 <li>HTML5 網頁程式設計</li>
@@ -117,7 +125,13 @@ const Timeline = () => {
           className="vertical-timeline-element--Germany"
           date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
-          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
+          icon={
+            <i
+              className={`fas fa-graduation-cap iconMediaquery ${
+                classes.iconstyle
+              }`}
+            />
+          }
         >
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title">
@@ -127,10 +141,10 @@ const Timeline = () => {
               Exchange Student
             </h4>
             <p className={classes.title}>
-            <ul>
-              <li>goethe zertifikat A2</li>
-              <li>goethe zertifikat B1</li>
-            </ul>
+              <ul>
+                <li>goethe zertifikat A2</li>
+                <li>goethe zertifikat B1</li>
+              </ul>
             </p>
           </div>
         </VerticalTimelineElement>
@@ -138,32 +152,49 @@ const Timeline = () => {
           className="vertical-timeline-element--nchu"
           date="2016.07～2017.07"
           iconStyle={{ background: "#e1e0d8" }}
-          icon={<i className={`fas fa-graduation-cap iconMediaquery ${classes.iconstyle}`} />}
+          icon={
+            <i
+              className={`fas fa-graduation-cap iconMediaquery ${
+                classes.iconstyle
+              }`}
+            />
+          }
         >
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title">
               <NCHUicon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Department of Foreign Languages and Literatures</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Department of Foreign Languages and Literatures
+            </h4>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--hote"
           date="2012.09～2016.06"
           iconStyle={{ background: "#0073b0" }}
-          icon={<i className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`} />}
+          icon={
+            <i
+              className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`}
+            />
+          }
         >
           <div className={classes.title}>
-            <h3 className="vertical-timeline-element-title"><HotelIcon /></h3>
+            <h3 className="vertical-timeline-element-title">
+              <HotelIcon />
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-            <ul>
-              <li>Facebook advertising</li>
-              <li>Google Adwords advertising</li>
-              <li>write activity projects</li>
-              <li>control and plain project budget</li>
-              <li>Customer relationship management</li>
-              <li>social media</li>
-            </ul>
+              <p className={classes.title}>
+                <ul>
+                  <li>Facebook advertising</li>
+                  <li>Google Adwords advertising</li>
+                  <li>write activity projects</li>
+                  <li>control and plain project budget</li>
+                  <li>Customer relationship management</li>
+                  <li>social media</li>
+                </ul>
+              </p>
+
               {/* <ul>
                 <li>購買臉書廣告, Google關鍵字廣告</li>
                 <li>廣告宣傳撰寫與文字潤搞,協助媒體拍攝不同檔期新聞露出</li>

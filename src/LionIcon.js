@@ -10,6 +10,7 @@ const useStyles = makeStyles(theme => ({
   header_lion_logo:{
     width:'60px',
     height: '60px',    
+    paddingRight: '15px'
   }
 }));
 const LionIcon = () => {

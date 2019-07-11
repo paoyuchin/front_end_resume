@@ -16,7 +16,7 @@ const GermanyIcon = () => {
 
   return (
     <div className={classes.style}>
-      <span>
+      <span className="padding_right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="-30 -10 200 88"

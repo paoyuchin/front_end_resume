@@ -1,5 +1,5 @@
 body {
-  background: #e3d9cd !important;
+  background: rgb(239, 239, 239);
   color: #3d4451;
 }
 
@@ -165,9 +165,14 @@ body {
 }
 
 .techStack_wrap {
+  .MuiGrid-spacing-xs-3 {
+    margin: 0;
+    width: 100%;
+  }
+
   hr {
     width: 100%;
-    max-width: 130px;
+    max-width: 150px;
     height: 5px;
     background-color: #dedede;
     display: inline-block;
@@ -175,7 +180,7 @@ body {
     border-style: initial;
     border-color: initial;
     border-image: initial;
-    margin: 0px 9px 5px;
+    margin: 0px 0px 0px;
   }
 
   .TechStack {
@@ -230,7 +235,7 @@ body {
 
   .techStack_wrap {
     hr {
-      margin: 0px 15px 4px;
+      margin: 0px;
     }
 
     .MuiGrid-spacing-xs-3 {

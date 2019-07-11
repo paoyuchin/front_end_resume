@@ -7,18 +7,21 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles(theme => ({
   root: {
     ["@media (max-width:960px)"]: {
-      paddingLeft: '15px',
-      paddingTop: '15px',
-    }
+      paddingLeft: "15px",
+      paddingTop: "15px"
+    },
+    textAlign: "left",
+    padding: "16px"
   },
   title: {
-    padding: "10px 0",
-    textAlign: "center",
+    // padding: "10px 0",
+    textAlign: "left",
     color: "#3d4451",
+    minHeight:'37px',
     ["@media (max-width:960px)"]: {
       textAlign: "left",
-      paddingLeft: '16px',
-      padding:'0'
+      paddingLeft: "16px",
+      padding: "0"
     }
   },
   ullistStyle: {
@@ -30,8 +33,8 @@ const useStyles = makeStyles(theme => ({
     lineHeight: "1.5",
     ["@media (max-width:960px)"]: {
       marginLeft: "16px",
-      paddingLeft: '0',
-      maxWidth:'none',
+      paddingLeft: "0",
+      maxWidth: "none"
     }
   },
   icon_style: {
@@ -42,8 +45,19 @@ const useStyles = makeStyles(theme => ({
   item: {
     ["@media (max-width:960px)"]: {
       textAlign: "left",
-      marginBottom:'19px',
+      marginBottom: "19px"
     }
+  },
+  skills: {
+    color: "#0073B0",
+    padding: "16px 0px",
+    minHeight: '36px',
+  },
+  skillsContent: {
+    color: "#3d4451",
+    padding: "18px 10px 15px 0px",
+    lineHeight: "18px",
+    width:'90%'
   }
 }));
 
@@ -53,88 +67,94 @@ const TechStack = () => {
     <div className="techStack_wrap">
       <h1 className="color_2 color_3 title_space">Tech Stack</h1>
       <div className={`TechStack fixed_size ${classes.root}`}>
-        <Grid container>
+        <Grid container spacing={3}>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-laptop-code ${classes.icon_style}`} />
             <div className={classes.title}>FRONT END</div>
+            <div className={classes.skills}>
+              React.js, React-router, React-redux, ECMAScript 6,Asynchronous,
+              Synchronous
+              <br />
+              React-thunk, EJS, SASS/SCSS, PUG
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>React.js</li>
-              <li>React-router</li>
-              <li>React-redux</li>
-              <li>React-thunk</li>
-              <li>EJS</li>
-              <li>SASS/SCSS</li>
-              <li>ES6,ES7,ES8( Async/Await, Promise ...etc)</li>
-              <li>npm</li>
-              <li>SEO</li>
-            </ul>
+            <div className={classes.skillsContent}>
+            Updating DOM is usually the bottleneck when it comes to the web
+              performance. However, In react, any view changes are first reflected to virtual
+              DOM, then an efficient diff algorithm compares the previous and
+              current states of the virtual DOM and calculates the best way to apply these changes.
+              
+            </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-tools ${classes.icon_style}`} />
+            <i className={`fas fa-rocket ${classes.icon_style}`} />
+            <div className={classes.title}>
+              Version Control & Code Optimization
+            </div>
+            <div className={classes.skills}>
+              git, git flow, git kraken, Babel, Webpack
+            </div>
+            <hr />
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
+            <div />
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <i className={`fas fa-code ${classes.icon_style}`} />
             <div className={classes.title}>BACK END</div>
+            <div className={classes.skills}>
+              firestore, php, mysql, Google Authentication
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>git</li>
-              <li>git flow</li>
-              <li>git kraken</li>
-              <li>Babel</li>
-              <li>Webpack</li>
-              <li>Sketch</li>
-              <li>AdobeXD</li>
-              <li>mockflow</li>
-            </ul>
-            <div />
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-code ${classes.icon_style}`} />
-            <div className={classes.title}>VERSION CONTROL/CODE OPTIMICATION</div>
+            <i className={`fas fa-poll-h ${classes.icon_style}`} />
+            <div className={classes.title}>Project Menegement/Marketing</div>
+            <div className={classes.skills}>
+              Google Analytics, Keyword Analysis
+              <br />
+              SEO Executive, Project management, <br />
+              Social Media Strategy <br />
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>firestore</li>
-              <li>php</li>
-            </ul>
-          </Grid>
-          <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-laptop-code ${classes.icon_style}`} />
-            <div className={classes.title}>LANGUAGE</div>
-            <hr />
-            <ul className={classes.ullistStyle}>
-              <li>React.js</li>
-              <li>React-router</li>
-              <li>React-redux</li>
-              <li>React-thunk</li>
-              <li>EJS</li>
-              <li>SASS/SCSS</li>
-              <li>ES6,ES7,ES8( Async/Await, Promise ...etc)</li>
-              <li>npm</li>
-              <li>SEO</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <i className={`fas fa-tools ${classes.icon_style}`} />
-            <div className={classes.title}>PROJECT MANEGEMENT</div>
+            <div className={classes.title}>UI Test/TOOLS</div>
+            <div className={classes.skills}>
+              Storybook, ILLUSTRATOR, Photoshop,{" "}
+            </div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>1</li>
-              <li>dddd</li>
-              <li>dd</li>
-              <li>dd</li>
-              <li>dddddd</li>
-              <li>Sketch</li>
-              <li>AdobeXD</li>
-              <li>mockflow</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
             <div />
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-code ${classes.icon_style}`} />
-            <div className={classes.title}>TOOLS</div>
+            <i className={`fas fa-language ${classes.icon_style}`} />
+            <div className={classes.title}>LANGUAGE</div>
+            <div className={classes.skills}>German, English, Chinese</div>
             <hr />
-            <ul className={classes.ullistStyle}>
-              <li>power point</li>
-              <li>sketch</li>
-            </ul>
+            <div className={classes.skillsContent}>
+              The reason why using UI libraries is that things will go messy
+              if you define layout by HTML and operate on DOM elements by
+              document.querySelector or jQuery.
+            </div>
           </Grid>
         </Grid>
       </div>

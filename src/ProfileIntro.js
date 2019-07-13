@@ -26,6 +26,7 @@ const ProfileIntro = () => {
     <div className={`ProfileIntro fixed_size ${classes.root}`}>
       <Grid container className="profilebgc">
         <Grid xs={12} sm={12} md={6}>
+          <span className="conversation">Hello</span>
           <div className="picture">
             <img src="https://fakeimg.pl/350x200/?text=World&font=lobster" />
           </div>
@@ -35,6 +36,7 @@ const ProfileIntro = () => {
             <Grid xs={12} sm={12} md={12}>
               <div className="card_name">
                 <h1 className="color_3">
+                
                   <span className="font_bold_normal color_3 name">I am</span> Pao
                   Yu Chin
                 </h1>

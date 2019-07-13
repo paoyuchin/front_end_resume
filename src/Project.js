@@ -12,6 +12,7 @@ import NCHUicon from "./NCHUicon";
 import HotelIcon from "./HotelIcon";
 // import III_icon from "./III_icon";
 import { makeStyles } from "@material-ui/core/styles";
+import { GoFileDirectory } from "react-icons/go";
 
 const useStyles = makeStyles(theme => ({
   title: {
@@ -39,6 +40,8 @@ const useStyles = makeStyles(theme => ({
 
 const Project = () => {
   const classes = useStyles();
+  // console.log(3, ICON_NAME);
+  
   return (
     <div className="Project">
       <h1 className="color_2 color_3 title_space">Projects & developments</h1>
@@ -46,13 +49,7 @@ const Project = () => {
         <VerticalTimelineElement
           className="lion_work"
           iconStyle={{ background: "#0073b0" }}
-          icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
-          }
+          icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
             <div>
@@ -61,19 +58,19 @@ const Project = () => {
               <span className="skillsButton">RWD</span>
               <span className="skillsButton">webpack</span>
             </div>
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title companyName">
               Lion Travel - Ticket
             </h3>
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              <li>In charge of Lion Travel's Ticket website</li>
-              The most challenge part in the project is that projec built with
-              Jquery and React.js. The search panel built with react. And
-              other parts build with Jquery. Because of the differenct
-              environmentm. I need to pack with two differenct bundle file to
-              intergret with. Also needs to discuss with back-end engineer
-              about data connection.
+              In charge of Lion Travel's Ticket website, The most challenge
+              part in the project is that projec built with Jquery and
+              React.js. The search panel built with react. And other parts
+              build with Jquery. Because of the differenct environmentm. I
+              need to pack with two differenct bundle file to intergret with.
+              Also needs to discuss with back-end engineer about data
+              connection.
             </p>
 
             <a className="button" href="">
@@ -84,19 +81,13 @@ const Project = () => {
         <VerticalTimelineElement
           className="lion_work"
           iconStyle={{ background: "#0073b0" }}
-          icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
-          }
+          icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
             <div>
-              <span>Ract</span>
-              <span>Ract-Redux</span>
-              <span>Rect-Router</span>
+              <span className="skillsButton">Ract</span>
+              <span className="skillsButton">Ract-Redux</span>
+              <span className="skillsButton">Rect-Router</span>
               <span className="skillsButton">Firebase</span>
               <span className="skillsButton">Firestore</span>
               <span className="skillsButton">
@@ -104,7 +95,7 @@ const Project = () => {
               </span>
               <span className="skillsButton">RWD</span>
             </div>
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title companyName">
               年輕人最喜歡的-穀米養生粥
             </h3>
             <p
@@ -124,20 +115,14 @@ const Project = () => {
         <VerticalTimelineElement
           className="lion_work"
           iconStyle={{ background: "#0073b0" }}
-          icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
-          }
+          icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
             <div>
-              <span>Ract</span>
-              <span>RWD</span>
+              <span className="skillsButton">Ract</span>
+              <span className="skillsButton">RWD</span>
             </div>
-            <h3 className="vertical-timeline-element-title">
+            <h3 className="vertical-timeline-element-title companyName">
               React Anchor Module
             </h3>
             <p
@@ -154,22 +139,18 @@ const Project = () => {
         <VerticalTimelineElement
           className="lion_work"
           iconStyle={{ background: "#0073b0" }}
-          icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
-          }
+          icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
             <div>
               <span className="skillsButton">php</span>
               <span className="skillsButton">mySql</span>
               <span className="skillsButton">javascript</span>
-              <span>scss</span>
+              <span className="skillsButton">scss</span>
             </div>
-            <h3 className="vertical-timeline-element-title">Pure css, svg</h3>
+            <h3 className="vertical-timeline-element-title companyName">
+              Protecting with whale evolution
+            </h3>
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
@@ -185,23 +166,17 @@ const Project = () => {
         <VerticalTimelineElement
           className="lion_work"
           iconStyle={{ background: "#0073b0" }}
-          icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
-          }
+          icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
             <div>
               <span className="skillsButton">scss</span>
               <span className="skillsButton">svg</span>
               <span className="skillsButton">Pug</span>
-              <span>scss</span>
+              <span className="skillsButton">scss</span>
             </div>
-            <h3 className="vertical-timeline-element-title">
-              Pure css with some stuffs
+            <h3 className="vertical-timeline-element-title companyName">
+              Pure css
             </h3>
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}

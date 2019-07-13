@@ -3,6 +3,12 @@ import "./App.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
+import { FaReact } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { IoIosGitBranch } from "react-icons/io";
+import { MdWeb, MdBuild, MdTranslate } from "react-icons/md";
+
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -17,10 +23,10 @@ const useStyles = makeStyles(theme => ({
     // padding: "10px 0",
     textAlign: "left",
     color: "#3d4451",
-    minHeight: "37px",
+    paddingTop: '15px',
     ["@media (max-width:960px)"]: {
       textAlign: "left",
-      paddingLeft: "16px",
+      // paddingLeft: "16px",
       padding: "0"
     }
   },
@@ -32,15 +38,15 @@ const useStyles = makeStyles(theme => ({
     // maxWidth: "200px",
     lineHeight: "1.5",
     ["@media (max-width:960px)"]: {
-      marginLeft: "16px",
+      // marginLeft: "16px",
       paddingLeft: "0",
       maxWidth: "none"
     }
   },
-  icon_style: {
-    fontSize: "36px",
-    color: "#0073B0",
-    padding: "16px"
+  iconStyle: {
+    width:'35px',
+    height:'35px',
+    color:'rgb(0, 115, 176);'
   },
   item: {
     ["@media (max-width:960px)"]: {
@@ -69,7 +75,7 @@ const TechStack = () => {
       <div className={`TechStack fixed_size ${classes.root}`}>
         <Grid container spacing={3}>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-laptop-code ${classes.icon_style}`} />
+            <FaReact className={classes.iconStyle} />
             <div className={classes.title}>FRONT END</div>
             <hr />
             <ul className={classes.ullistStyle}>
@@ -81,13 +87,27 @@ const TechStack = () => {
               <li>SASS/SCSS</li>
               <li>ES6</li>
               <li>Synchronous</li>
-              <li>storybook</li>
-              <li>npm</li>
               <li>SEO</li>
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-code ${classes.icon_style}`} />
+            <IoIosGitBranch className={classes.iconStyle} />
+            <div className={classes.title}>DevTools</div>
+            <hr />
+            <ul className={classes.ullistStyle}>
+              <li>git</li>
+              <li>git flow</li>
+              <li>git kraken</li>
+              <li>storybook</li>
+              <li>npm</li>
+              <li>Babel</li>
+              <li>Webpack</li>
+              <li>Sketch</li>
+            </ul>
+            <div />
+          </Grid>
+          <Grid xs={12} sm={12} md={4} className={classes.item}>
+            <FaLaptopCode className={classes.iconStyle} />
             <div className={classes.title}>BACK END</div>
             <hr />
             <ul className={classes.ullistStyle}>
@@ -99,24 +119,7 @@ const TechStack = () => {
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-rocket ${classes.icon_style}`} />
-            <div className={classes.title}>DevTools</div>
-            <hr />
-            <ul className={classes.ullistStyle}>
-              <li>git</li>
-              <li>git flow</li>
-              <li>git kraken</li>
-              <li>Babel</li>
-              <li>Webpack</li>
-              <li>Sketch</li>
-              <li>AdobeXD</li>
-              <li>mockflow</li>
-            </ul>
-            <div />
-          </Grid>
-
-          <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-poll-h ${classes.icon_style}`} />
+            <MdWeb className={classes.iconStyle} />
             <div className={classes.title}>Project Menegement/Marketing</div>
             <hr />
             <ul className={classes.ullistStyle}>
@@ -128,19 +131,20 @@ const TechStack = () => {
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-tools ${classes.icon_style}`} />
+            <MdBuild className={classes.iconStyle} />
             <div className={classes.title}>UI Test/TOOLS</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>mockflow</li>
               <li>sketch</li>
               <li>ILLUSTRATOR</li>
+              <li>AdobeXD</li>
               <li>Photoshop</li>
             </ul>
             <div />
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
-            <i className={`fas fa-language ${classes.icon_style}`} />
+            <MdTranslate className={classes.iconStyle} />
             <div className={classes.title}>LANGUAGE</div>
             <hr />
             <ul className={classes.ullistStyle}>

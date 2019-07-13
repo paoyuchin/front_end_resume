@@ -11,6 +11,9 @@ import NCHUicon from "./NCHUicon";
 import HotelIcon from "./HotelIcon";
 import III_icon from "./III_icon";
 import { makeStyles } from "@material-ui/core/styles";
+import { GoMortarBoard } from "react-icons/go";
+import { MdWork } from "react-icons/md";
+
 
 const useStyles = makeStyles(theme => ({
   title: {
@@ -49,9 +52,7 @@ const Timeline = () => {
           date="2018 - present"
           iconStyle={{ background: "#0073b0" }}
           icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`}
-            />
+              <MdWork color="white"/>
           }
         >
           <div className={classes.title}>
@@ -89,11 +90,7 @@ const Timeline = () => {
           date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
-            <i
-              className={`fas fa-graduation-cap iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
+            <GoMortarBoard />
           }
         >
           <div className={classes.title}>
@@ -126,18 +123,14 @@ const Timeline = () => {
           date="2018.10～2018.03"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
-            <i
-              className={`fas fa-graduation-cap iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
+            <GoMortarBoard />
           }
         >
           <div className={classes.title}>
             <h3 className="vertical-timeline-element-title">
               <GermanyIcon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4 className="vertical-timeline-element-subtite">
               Exchange Student
             </h4>
             <p className={classes.title}>
@@ -153,11 +146,7 @@ const Timeline = () => {
           date="2016.07～2017.07"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
-            <i
-              className={`fas fa-graduation-cap iconMediaquery ${
-                classes.iconstyle
-              }`}
-            />
+            <GoMortarBoard />
           }
         >
           <div className={classes.title}>
@@ -167,6 +156,10 @@ const Timeline = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Department of Foreign Languages and Literatures
             </h4>
+            <p className={classes.title}>
+              <ul>
+              </ul>
+            </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -174,9 +167,7 @@ const Timeline = () => {
           date="2012.09～2016.06"
           iconStyle={{ background: "#0073b0" }}
           icon={
-            <i
-              className={`fas fa-suitcase iconMediaquery ${classes.iconstyle}`}
-            />
+            <MdWork   color="white"/>
           }
         >
           <div className={classes.title}>

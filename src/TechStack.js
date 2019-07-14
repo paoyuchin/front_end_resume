@@ -76,7 +76,7 @@ const TechStack = () => {
         <Grid container spacing={3}>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <FaReact className={classes.iconStyle} />
-            <div className={classes.title}>FRONT END</div>
+            <div className={classes.title}>Front-end</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>React.js</li>
@@ -86,20 +86,19 @@ const TechStack = () => {
               <li>EJS</li>
               <li>SASS/SCSS</li>
               <li>ES6</li>
-              <li>Synchronous</li>
               <li>SEO</li>
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <IoIosGitBranch className={classes.iconStyle} />
-            <div className={classes.title}>DevTools</div>
+            <div className={classes.title}>Dev Tools</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>git</li>
               <li>git flow</li>
               <li>git kraken</li>
               <li>storybook</li>
-              <li>npm</li>
+              <li>npm/yarn</li>
               <li>Babel</li>
               <li>Webpack</li>
               <li>Sketch</li>
@@ -108,36 +107,35 @@ const TechStack = () => {
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <FaLaptopCode className={classes.iconStyle} />
-            <div className={classes.title}>BACK END</div>
+            <div className={classes.title}>Back-end</div>
             <hr />
             <ul className={classes.ullistStyle}>
-              <li>firestore</li>
-              <li>php</li>
-              <li>mysql</li>
-              <li>Google</li>
-              <li>Authentication</li>
+              <li>Firestore</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>Google Authentication</li>
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <MdWeb className={classes.iconStyle} />
-            <div className={classes.title}>Project Menegement/Marketing</div>
+            <div className={classes.title}>Project Management/Marketing</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>Google Adword</li>
-              <li>social medial</li>
+              <li>social media</li>
               <li>Facebook Adword</li>
               <li>Project management</li>
-              <li>Social Media Strategy </li>
+              <li>Social Media Strategy</li>
             </ul>
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <MdBuild className={classes.iconStyle} />
-            <div className={classes.title}>UI Test/TOOLS</div>
+            <div className={classes.title}>UI Test Tools</div>
             <hr />
             <ul className={classes.ullistStyle}>
-              <li>mockflow</li>
-              <li>sketch</li>
-              <li>ILLUSTRATOR</li>
+              <li>MockFlow</li>
+              <li>Sketch</li>
+              <li>Illustrator</li>
               <li>AdobeXD</li>
               <li>Photoshop</li>
             </ul>
@@ -145,7 +143,7 @@ const TechStack = () => {
           </Grid>
           <Grid xs={12} sm={12} md={4} className={classes.item}>
             <MdTranslate className={classes.iconStyle} />
-            <div className={classes.title}>LANGUAGE</div>
+            <div className={classes.title}>Language</div>
             <hr />
             <ul className={classes.ullistStyle}>
               <li>German</li>

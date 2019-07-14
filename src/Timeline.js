@@ -66,14 +66,15 @@ const Timeline = () => {
             </h4>
             <p className={classes.title}>
               <ul>
-                <li>In charge of Lion Travel's Ticket website</li>
-                <li>Developing react module </li>
-                <li>Discussing with Backend engineer web structor</li>
+                <li>The Ticket/Pass Page of Lion Travel Website</li>
+                <li>React module development</li>
+                <li>jQuery module development</li>
+                <li>Define and apply the interfaces with the backend engineers</li>
+                <li>Inter-department collaboration</li>
+                <li>Take part in the project design discussions</li>
                 <li>Search engine optimization</li>
-                <li>Developing jquery module</li>
                 <li>Responsive Web Design</li>
                 <li>Cross-browser compatibility</li>
-                <li>Api concatenation</li>
               </ul>
               {/* <ul>
                 <li>雄獅旅遊網-票券當地遊開發窗口</li>
@@ -102,10 +103,10 @@ const Timeline = () => {
             <h4 className="vertical-timeline-element-subtitle" />
             <p className={classes.title}>
               <ul>
-                <li>Javascript dynamic development</li>
+                <li>Javascript</li>
                 <li>HTML5</li>
-                <li>Php web design</li>
-                <li>Mysql</li>
+                <li>PHP</li>
+                <li>MySQL</li>
                 <li>Responsive web design</li>
               </ul>
               {/* <ul>
@@ -135,8 +136,8 @@ const Timeline = () => {
             </h4>
             <p className={classes.title}>
               <ul>
-                <li>goethe zertifikat A2</li>
-                <li>goethe zertifikat B1</li>
+                <li>Goethe Zertifikat A2</li>
+                <li>Goethe Zertifikat B1</li>
               </ul>
             </p>
           </div>
@@ -177,12 +178,10 @@ const Timeline = () => {
             <h4 className="vertical-timeline-element-subtitle">
               <p className={classes.title}>
                 <ul>
+                  <li>Marketing communications</li>
                   <li>Facebook advertising</li>
                   <li>Google Adwords advertising</li>
-                  <li>write activity projects</li>
-                  <li>control and plain project budget</li>
                   <li>Customer relationship management</li>
-                  <li>social media</li>
                 </ul>
               </p>
 

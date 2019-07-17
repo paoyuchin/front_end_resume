@@ -48,7 +48,7 @@ const Project = () => {
       <VerticalTimeline layout={"1-column"}>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#0073b0" }}
+          iconStyle={{ background: "#95adbe" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -68,14 +68,14 @@ const Project = () => {
               This page offers the customers ticket booking and car-rental booking service online.
             </p>
 
-            <a className="button" href="">
+            <a className="button" href="https://activity.liontravel.com/">
               Visit website
             </a>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#0073b0" }}
+          iconStyle={{ background: "#95adbe" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -91,7 +91,7 @@ const Project = () => {
               <span className="skillsButton">RWD</span>
             </div>
             <h3 className="vertical-timeline-element-title companyName">
-              年輕人最喜歡的-穀米養生粥
+              穀米私人廚房
             </h3>
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
@@ -106,7 +106,7 @@ const Project = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#0073b0" }}
+          iconStyle={{ background: "#95adbe" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -130,7 +130,7 @@ const Project = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#0073b0" }}
+          iconStyle={{ background: "#95adbe" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -155,7 +155,7 @@ const Project = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#0073b0" }}
+          iconStyle={{ background: "#95adbe" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>

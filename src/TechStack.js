@@ -3,8 +3,8 @@ import "./App.scss";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import { FaReact } from "react-icons/fa";
-import { FaLaptopCode } from "react-icons/fa";
+import { FaReact } from 'react-icons/fa';
+import { FaLaptopCode } from 'react-icons/fa';
 import { IoIosGitBranch } from "react-icons/io";
 import { MdWeb, MdBuild, MdTranslate } from "react-icons/md";
 

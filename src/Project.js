@@ -13,6 +13,7 @@ import HotelIcon from "./HotelIcon";
 // import III_icon from "./III_icon";
 import { makeStyles } from "@material-ui/core/styles";
 import { GoFileDirectory } from "react-icons/go";
+import {anchor_video} from './video/anchor.mp4';
 
 const useStyles = makeStyles(theme => ({
   title: {
@@ -48,7 +49,7 @@ const Project = () => {
       <VerticalTimeline layout={"1-column"}>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#95adbe" }}
+          iconStyle={{ background: "#6181B6" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -64,18 +65,18 @@ const Project = () => {
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              In charge of the Ticket/Pass page of Lion Travel website.
+              In charge of the Ticket/Pass page of Lion Travel website.<br />
               This page offers the customers ticket booking and car-rental booking service online.
             </p>
 
-            <a className="button" href="https://activity.liontravel.com/">
+            <a className="button" href="https://activity.liontravel.com/" target="_blank">
               Visit website
             </a>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#95adbe" }}
+          iconStyle={{ background: "#6181B6" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -91,12 +92,12 @@ const Project = () => {
               <span className="skillsButton">RWD</span>
             </div>
             <h3 className="vertical-timeline-element-title companyName">
-              穀米私人廚房
+              Kitchen of Handmade Taiwanese Congee
             </h3>
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              A website promoting a traditional Taiwanese congee stand in Chiayi.
+              A website promoting a traditional Taiwanese congee stand in Chiayi.<br />
               It demonstrates the customers the products and allows the customer to write reviews and leave ratings.
             </p>
             <a className="button" href="">
@@ -106,7 +107,7 @@ const Project = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#95adbe" }}
+          iconStyle={{ background: "#6181B6" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -122,15 +123,19 @@ const Project = () => {
             >
               A component of the home page of the Lion Travel website.
             </p>
-
-            <a className="button" href="">
-              Visit website
+            <div>
+            <video id="samp" width="140" height="80" controls>
+            </video>
+            </div>
+            <a className="button button_1" href="https://paoyuchin.github.io/react_anchor/" target="_blank">
+              anchor component website
             </a>
+            <a className="button" href="https://www.liontravel.com/" target="_blank">visit website</a>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#95adbe" }}
+          iconStyle={{ background: "#6181B6" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -146,7 +151,8 @@ const Project = () => {
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              A XXX website.
+              A Whale Conservation website.<br />
+              The services of this website are fundraising for whales, explain how we can protect whale, and how do we use the money from our donation.
             </p>
             <a className="button" href="">
               Visit website
@@ -155,7 +161,7 @@ const Project = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          iconStyle={{ background: "#95adbe" }}
+          iconStyle={{ background: "#6181B6" }}
           icon={<GoFileDirectory  color="#fff" />}
         >
           <div className={classes.title}>
@@ -171,7 +177,7 @@ const Project = () => {
             <p
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              A XXX website built with JavaScript, PHP and MySQL.
+              A static website, including differences static showcase.
             </p>
 
             <a className="button" href="">
@@ -185,3 +191,8 @@ const Project = () => {
 };
 
 export default Project;
+
+
+// <source src={anchor_video} type="video/mp4">
+//                 Your browser does not support this video format.
+//             </source>

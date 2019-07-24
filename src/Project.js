@@ -100,7 +100,7 @@ const Project = () => {
               A website promoting a traditional Taiwanese congee stand in Chiayi.<br />
               It demonstrates the customers the products and allows the customer to write reviews and leave ratings.
             </p>
-            <a className="button" href="">
+            <a className="button" href="https://my-super-firebase.web.app/" target="_blank">
               Visit website
             </a>
           </div>

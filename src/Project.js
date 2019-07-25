@@ -9,7 +9,6 @@ import LionIcon from "./LionIcon";
 import GermanyIcon from "./GermanyIcon";
 import NCHUicon from "./NCHUicon";
 import HotelIcon from "./HotelIcon";
-// import III_icon from "./III_icon";
 import { makeStyles } from "@material-ui/core/styles";
 import { GoFileDirectory } from "react-icons/go";
 import pic from './resource/anchorrrrr.jpg'

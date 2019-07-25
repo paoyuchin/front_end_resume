@@ -15,6 +15,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import { GoFileDirectory } from "react-icons/go";
 import {anchor_video} from './video/anchor.mp4';
 import { Player } from 'video-react';
+import pic from './resource/anchorrrrr.jpg'
+
 
 const useStyles = makeStyles(theme => ({
   title: {
@@ -125,7 +127,7 @@ const Project = () => {
               A component of the home page of the Lion Travel website.
             </p>
             <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6mUODB4RbGg?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src={pic} alt="" className="anchor_pic"/>
             </div>
             <a className="button button_1" href="https://paoyuchin.github.io/react_anchor/" target="_blank">
               anchor component website

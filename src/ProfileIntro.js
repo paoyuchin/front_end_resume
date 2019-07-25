@@ -41,7 +41,8 @@ const ProfileIntro = () => {
                   Yu Chin
                 </h1>
                 <span className="color_4">Front-End Engineer, </span>
-                <span className="color_4">React Engineer</span>
+                <span className="color_4">React Engineer,</span> <br/>
+                <span className="color_4">Product Manager</span>                
               </div>
             </Grid>
             <Grid xs={12} sm={12} md={12}>

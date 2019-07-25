@@ -5,7 +5,6 @@ import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
-// import '~video-react/dist/video-react.css';
 import LionIcon from "./LionIcon";
 import GermanyIcon from "./GermanyIcon";
 import NCHUicon from "./NCHUicon";
@@ -13,8 +12,6 @@ import HotelIcon from "./HotelIcon";
 // import III_icon from "./III_icon";
 import { makeStyles } from "@material-ui/core/styles";
 import { GoFileDirectory } from "react-icons/go";
-import {anchor_video} from './video/anchor.mp4';
-import { Player } from 'video-react';
 import pic from './resource/anchorrrrr.jpg'
 
 
@@ -182,7 +179,7 @@ const Project = () => {
               A static website, including differences static showcase.
             </p>
 
-            <a className="button" href="">
+            <a className="button" href="https://paoyuchin.github.io/pure_css/" target="_blank">
               Visit website
             </a>
           </div>
@@ -193,8 +190,3 @@ const Project = () => {
 };
 
 export default Project;
-
-
-// <source src={anchor_video} type="video/mp4">
-//                 Your browser does not support this video format.
-//             </source>

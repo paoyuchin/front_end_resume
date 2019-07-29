@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/front_end_resume/static/css/main.215e0221.chunk.css",
-    "main.js": "/front_end_resume/static/js/main.5ecc9082.chunk.js",
-    "main.js.map": "/front_end_resume/static/js/main.5ecc9082.chunk.js.map",
+    "main.css": "/front_end_resume/static/css/main.01add882.chunk.css",
+    "main.js": "/front_end_resume/static/js/main.8d2c4528.chunk.js",
+    "main.js.map": "/front_end_resume/static/js/main.8d2c4528.chunk.js.map",
     "runtime~main.js": "/front_end_resume/static/js/runtime~main.ff94dc38.js",
     "runtime~main.js.map": "/front_end_resume/static/js/runtime~main.ff94dc38.js.map",
     "static/css/2.38750c1c.chunk.css": "/front_end_resume/static/css/2.38750c1c.chunk.css",
-    "static/js/2.ebc5dc6b.chunk.js": "/front_end_resume/static/js/2.ebc5dc6b.chunk.js",
-    "static/js/2.ebc5dc6b.chunk.js.map": "/front_end_resume/static/js/2.ebc5dc6b.chunk.js.map",
+    "static/js/2.5353e8e7.chunk.js": "/front_end_resume/static/js/2.5353e8e7.chunk.js",
+    "static/js/2.5353e8e7.chunk.js.map": "/front_end_resume/static/js/2.5353e8e7.chunk.js.map",
     "index.html": "/front_end_resume/index.html",
-    "precache-manifest.f92eaa03a297884aa80e8b905bd5f6ca.js": "/front_end_resume/precache-manifest.f92eaa03a297884aa80e8b905bd5f6ca.js",
+    "precache-manifest.333cf54fc2c0c8a1ca86a28acafc0d15.js": "/front_end_resume/precache-manifest.333cf54fc2c0c8a1ca86a28acafc0d15.js",
     "service-worker.js": "/front_end_resume/service-worker.js",
     "static/css/2.38750c1c.chunk.css.map": "/front_end_resume/static/css/2.38750c1c.chunk.css.map",
-    "static/css/main.215e0221.chunk.css.map": "/front_end_resume/static/css/main.215e0221.chunk.css.map",
-    "static/media/anchorrrrr.jpg": "/front_end_resume/static/media/anchorrrrr.b1c15907.jpg"
+    "static/css/main.01add882.chunk.css.map": "/front_end_resume/static/css/main.01add882.chunk.css.map",
+    "static/media/anchorrrrr.jpg": "/front_end_resume/static/media/anchorrrrr.b1c15907.jpg",
+    "static/media/resume_pic.jpg": "/front_end_resume/static/media/resume_pic.6d1c86c7.jpg"
   }
 }

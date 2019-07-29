@@ -56,7 +56,7 @@ const Project = () => {
               <span className="skillsButton">React.js</span>
               <span className="skillsButton">jQuery</span>
               <span className="skillsButton">RWD</span>
-              <span className="skillsButton">webpack</span>
+              <span className="skillsButton">Webpack</span>
             </div>
             <h3 className="vertical-timeline-element-title companyName">
               Lion Travel - Ticket/Pass
@@ -83,8 +83,10 @@ const Project = () => {
               <span className="skillsButton">React</span>
               <span className="skillsButton">React-Redux</span>
               <span className="skillsButton">React-Router</span>
-              <span className="skillsButton">Firebase</span>
+              <span className="skillsButton">Firebase</span> <br/>
               <span className="skillsButton">Firestore</span>
+              <span className="skillsButton">GoogleMapApi</span>
+              <span className="skillsButton">OpenWeatherApi</span>              
               <span className="skillsButton">
                 firebase google authentication
               </span>
@@ -164,10 +166,9 @@ const Project = () => {
         >
           <div className={classes.title}>
             <div>
-              <span className="skillsButton">scss</span>
-              <span className="skillsButton">svg</span>
+              <span className="skillsButton">SCSS</span>
+              <span className="skillsButton">SVG</span>
               <span className="skillsButton">Pug</span>
-              <span className="skillsButton">scss</span>
             </div>
             <h3 className="vertical-timeline-element-title companyName">
               Pure css

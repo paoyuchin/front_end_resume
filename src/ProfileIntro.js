@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { SocialIcon } from "react-social-icons";
+import resume_pic from './resource/resume_pic.jpg';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,7 +29,7 @@ const ProfileIntro = () => {
         <Grid xs={12} sm={12} md={6}>
           <span className="conversation">Hello</span>
           <div className="picture">
-            <img src="https://fakeimg.pl/350x200/?text=World&font=lobster" />
+            <img src={resume_pic} />
           </div>
         </Grid>
         <Grid xs={12} sm={12} md={6}>
@@ -70,7 +71,7 @@ const ProfileIntro = () => {
             <SocialIcon
               className="link"
               bgColor="#FFF"
-              url="http://jaketrent.com"
+              url="https://github.com/paoyuchin/front_end_resume"
               network="github"
               style={{ height: 40, width: 40 }}
             />
@@ -80,7 +81,7 @@ const ProfileIntro = () => {
               style={{ height: 40, width: 40 }}
               className="link"
               bgColor="#FFF"
-              url="http://jaketrent.com"
+              url="https://www.linkedin.com/in/pao-yu-chin-208529113/"
               network="linkedin"
             />
           </Grid>
@@ -89,7 +90,7 @@ const ProfileIntro = () => {
               style={{ height: 40, width: 40 }}
               className="link"
               bgColor="#FFF"
-              url="http://jaketrent.com"
+              url="https://my-super-firebase.web.app/"
               network=""
             />
           </Grid>

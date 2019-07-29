@@ -49,7 +49,7 @@ const Timeline = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="lion_work"
-          date="2018 - present"
+          date="2018/6～2019/8"
           iconStyle={{ background: "#0073b0" }}
           icon={
               <MdWork color="white"/>
@@ -76,19 +76,12 @@ const Timeline = () => {
                 <li>Responsive Web Design</li>
                 <li>Cross-browser compatibility</li>
               </ul>
-              {/* <ul>
-                <li>雄獅旅遊網-票券當地遊開發窗口</li>
-                <li>使用 React 進行模組化開發</li>
-                <li>參與專案架構與使用技術討論</li>
-                <li>負責集團各部門需求進行模組開發</li>
-                <li>與UED, PM 討論使用者行為與後端討論api串接</li>
-              </ul> */}
             </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--iii"
-          date="2018.10～2018.03"
+          date="2018/10～2019/03"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -121,7 +114,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--Germany"
-          date="2018.10～2018.03"
+          date="2016/7～201//8"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -144,7 +137,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--nchu"
-          date="2016.07～2017.07"
+          date="2012/09～ 2016/06"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -165,10 +158,10 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--hote"
-          date="2012.09～2016.06"
+          date="2016/07～2017/08"
           iconStyle={{ background: "#0073b0" }}
           icon={
-            <MdWork   color="white"/>
+            <MdWork color="white"/>
           }
         >
           <div className={classes.title}>
@@ -184,18 +177,7 @@ const Timeline = () => {
                   <li>Customer relationship management</li>
                 </ul>
               </p>
-
-              {/* <ul>
-                <li>購買臉書廣告, Google關鍵字廣告</li>
-                <li>廣告宣傳撰寫與文字潤搞,協助媒體拍攝不同檔期新聞露出</li>
-                <li>
-                  飯店平面媒體與廣告媒體路出資料，規劃、執行、改進行銷策略及計劃之工作.
-                </li>
-                <li>CRM顧客關係管理系統</li>
-                <li>管理多媒體社群網站，Facebook臉書管理與刊登廣告操作</li>
-              </ul> */}
             </h4>
-            {/* <p className={classes.title}>User Experience, Visual Design</p> */}
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>

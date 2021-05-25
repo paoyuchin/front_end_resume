@@ -50,6 +50,9 @@ const useStyles = makeStyles(theme => ({
     padding: "0px",
     marginTop: "0px",
   },
+  ul: {
+    padding: "0px !important",
+  },
 }));
 
 const Timeline = () => {
@@ -77,17 +80,16 @@ const Timeline = () => {
         >
           Front end engineer
         </h4>
+        <p>2019/9~2021/3</p>
         <p className={classes.title}>
-          <ul>
-            <li>The Ticket/Pass Page of Lion Travel Website</li>
-            <li>React module development</li>
-            <li>jQuery module development</li>
-            <li>Define and apply the interfaces with the backend engineers</li>
+          <ul className={classes.ul}>
+            <li>Develop Gostation Management System Platform</li>
+            <li>Maintain Gogoro Network Battery Swapping Platform</li>
+            <li>Define and apply interfaces with backend engineers</li>
             <li>Inter-department collaboration</li>
             <li>Take part in the project design discussions</li>
-            <li>Search engine optimization</li>
             <li>Responsive Web Design</li>
-            <li>Cross-browser compatibility</li>
+            <li>React module development</li>
           </ul>
         </p>
       </div>
@@ -109,12 +111,13 @@ const Timeline = () => {
             >
               Front end engineer
             </h4>
+            <p>2018/6~2019/9</p>
             <p className={classes.title}>
               <ul>
                 <li>The Ticket/Pass Page of Lion Travel Website</li>
                 <li>React module development</li>
                 <li>jQuery module development</li>
-                <li>Define and apply the interfaces with the backend engineers</li>
+                <li>Define and apply interfaces with backend engineers</li>
                 <li>Inter-department collaboration</li>
                 <li>Take part in the project design discussions</li>
                 <li>Search engine optimization</li>
@@ -126,7 +129,6 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--iii"
-          // date="2018/10～2019/03"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />

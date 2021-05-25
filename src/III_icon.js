@@ -9,6 +9,9 @@ const useStyles = makeStyles(theme => ({
   text: {
     fontWeight: "bold !important",
   },
+  date: {
+    margin: "10px 0px !important",
+  },
 }));
 const GermanyIcon = () => {
   const classes = useStyles();
@@ -22,6 +25,7 @@ const GermanyIcon = () => {
         />
       </div>
       <p  className={classes.text}>Institute for Information Industry</p>
+      <p  className={classes.date}>2017/10~2018/3</p>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import LionIcon from "./LionIcon";
+import GogoroIcon from "./GogoroIcon";
 import GermanyIcon from "./GermanyIcon";
 import NCHUicon from "./NCHUicon";
 import HotelIcon from "./HotelIcon";
@@ -17,13 +18,21 @@ import { MdWork } from "react-icons/md";
 
 const useStyles = makeStyles(theme => ({
   title: {
-    color: "#3d4451 !important"
+    color: "#3d4451 !important",
+    marginTop: "0px !important",
+  },
+  gogoroName: {
+    color: "#3d4451;",
+    padding: "0px 0px 0px 0px",
+    fontWeight: "bold",
+    fontSize: "18px",
+    marginTop: "-25px !important",
   },
   name: {
     color: "#3d4451;",
-    padding: "16px 0px 11px 0px",
+    padding: "16px 0px 0px 0px",
     fontWeight: "bold",
-    fontSize: "18px"
+    fontSize: "18px",
   },
   iconstyle: {
     color: "white",
@@ -36,7 +45,11 @@ const useStyles = makeStyles(theme => ({
       position: "relative !important",
       fontSize: "24px !important"
     }
-  }
+  },
+  skillList: {
+    padding: "0px",
+    marginTop: "0px",
+  },
 }));
 
 const Timeline = () => {
@@ -47,9 +60,41 @@ const Timeline = () => {
         Work experience & Education
       </h1>
       <VerticalTimeline>
+      <VerticalTimelineElement
+      className="lion_work"
+      // date="2018/6～2019/8"
+      iconStyle={{ background: "#0073b0" }}
+      icon={
+          <MdWork color="white"/>
+      }
+    >
+      <div className={classes.title}>
+        <h3 className="vertical-timeline-element-title">
+          <GogoroIcon />
+        </h3>
+        <h4
+          className={`vertical-timeline-element-subtitle ${classes.gogoroName}`}
+        >
+          Front end engineer
+        </h4>
+        <p className={classes.title}>
+          <ul>
+            <li>The Ticket/Pass Page of Lion Travel Website</li>
+            <li>React module development</li>
+            <li>jQuery module development</li>
+            <li>Define and apply the interfaces with the backend engineers</li>
+            <li>Inter-department collaboration</li>
+            <li>Take part in the project design discussions</li>
+            <li>Search engine optimization</li>
+            <li>Responsive Web Design</li>
+            <li>Cross-browser compatibility</li>
+          </ul>
+        </p>
+      </div>
+    </VerticalTimelineElement>
         <VerticalTimelineElement
           className="lion_work"
-          date="2018/6～2019/8"
+          // date="2018/6～2019/8"
           iconStyle={{ background: "#0073b0" }}
           icon={
               <MdWork color="white"/>
@@ -62,7 +107,7 @@ const Timeline = () => {
             <h4
               className={`vertical-timeline-element-subtitle ${classes.name}`}
             >
-              front-end engineer
+              Front end engineer
             </h4>
             <p className={classes.title}>
               <ul>
@@ -81,7 +126,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--iii"
-          date="2018/10～2019/03"
+          // date="2018/10～2019/03"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -95,26 +140,19 @@ const Timeline = () => {
             </h3>
             <h4 className="vertical-timeline-element-subtitle" />
             <p className={classes.title}>
-              <ul>
+              <ul className={classes.skillList}>
                 <li>Javascript</li>
                 <li>HTML5</li>
                 <li>PHP</li>
                 <li>MySQL</li>
                 <li>Responsive web design</li>
               </ul>
-              {/* <ul>
-                <li>Javascript 動態網頁程式設計</li>
-                <li>HTML5 網頁程式設計</li>
-                <li>PHP網站程式設計</li>
-                <li>MySQL資料庫設計</li>
-                <li>響應式網頁設計(RWD)</li>
-              </ul> */}
             </p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--Germany"
-          date="2016/7～201//8"
+          // date="2016/7～201//8"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -124,9 +162,9 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">
               <GermanyIcon />
             </h3>
-            <h4 className="vertical-timeline-element-subtite">
-              Exchange Student
-            </h4>
+            <p>
+            2016/7~2017/7 Exchange Student
+            </p>
             <p className={classes.title}>
               <ul>
                 <li>Goethe Zertifikat A2</li>
@@ -137,7 +175,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--nchu"
-          date="2012/09～ 2016/06"
+          // date="2012/09～ 2016/06"
           iconStyle={{ background: "#e1e0d8" }}
           icon={
             <GoMortarBoard />
@@ -147,7 +185,7 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">
               <NCHUicon />
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">
+            <h4>
               Department of Foreign Languages and Literatures
             </h4>
             <p className={classes.title}>
@@ -158,7 +196,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--hote"
-          date="2016/07～2017/08"
+          // date="2016/07～2017/08"
           iconStyle={{ background: "#0073b0" }}
           icon={
             <MdWork color="white"/>

@@ -19,13 +19,14 @@ const NCHUicon = () => {
   const classes = useStyles();
   return (
     <div className={classes.style}>
-      <span>
+      <div>
         <img
           src="https://upload.wikimedia.org/wikipedia/zh/thumb/7/7a/National_Chung_Hsing_University.svg/1200px-National_Chung_Hsing_University.svg.png"
           className={classes.imgStyle}
         />
-      </span>
+      </div>
       <span className={classes.title}>台灣-國立中興大學</span>
+      <p>2012/9~2016/6</p>
     </div>
   );
 };

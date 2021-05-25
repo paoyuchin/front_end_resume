@@ -5,20 +5,23 @@ const useStyles = makeStyles(theme => ({
     top: "24px",
     left: "50px",
     width: "100%",
-  }
+  },
+  text: {
+    fontWeight: "bold !important",
+  },
 }));
 const GermanyIcon = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.style}>
-      <span className="padding_right">
+      <div className="padding_right">
         <img
           src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2016/07/12/99/2365617.png&x=0&y=0&sw=0&sh=0&sl=W&fw=800"
           alt=""
         />
-      </span>
-      <span>Institute for Information Industry</span>
+      </div>
+      <p  className={classes.text}>Institute for Information Industry</p>
     </div>
   );
 };

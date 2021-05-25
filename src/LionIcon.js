@@ -4,9 +4,9 @@ const useStyles = makeStyles(theme => ({
   style: {
     width: "100%"
   },
-  icon: {
-    display: "inline-block"
-  },
+  // icon: {
+  //   display: "inline-block"
+  // },
   header_lion_logo:{
     width:'60px',
     height: '60px',    
@@ -17,7 +17,7 @@ const LionIcon = () => {
   const classes = useStyles();
   return (
     <div className={classes.style}>
-      <span className={classes.icon}>
+      <div className={classes.icon}>
         <svg className={classes.header_lion_logo}>
           <g fill="none" fill-rule="evenodd">
             <path
@@ -26,7 +26,7 @@ const LionIcon = () => {
             />
           </g>
         </svg>
-      </span>
+      </div>
       <span className={classes.icon}>LION TRAVEL</span>
     </div>
   );

@@ -154,9 +154,6 @@ const Project = () => {
               A Whale Conservation website.<br />
               The services of this website are fundraising for whales, explain how we can protect whale, and how do we use the money from our donation.
             </p>
-            <a className="button" href="http://140.115.236.71/demo-personal/PJ/BD104G3_%e9%af%a8%e8%81%b2%e9%af%a8%e4%b8%96%e5%b0%88%e9%a1%8c%e6%96%87%e4%bb%b6.pdf?fbclid=IwAR3rJvYhbZj9E2Uywzt6ih0LH08tylk7SA_cpGFeLHgMhHfHx5pyank-PXM">
-              Visit website
-            </a>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
